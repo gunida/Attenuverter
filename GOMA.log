@@ -1,0 +1,36 @@
+D:\Documents\KiCad\8.0\projects\GOMA\GOMA.cir(3): Expected nodes here.
+U1 __U1
+  ^^^^^
+D:\Documents\KiCad\8.0\projects\GOMA\GOMA.cir(6): Expected nodes here.
+J4 __J4
+  ^^^^^
+D:\Documents\KiCad\8.0\projects\GOMA\GOMA.cir(7): Expected node name here.
+SW1 __SW1
+         ^
+D:\Documents\KiCad\8.0\projects\GOMA\GOMA.cir(7): Expected device instantiation or directive here.
+SW1 __SW1
+^^^^^^^^^
+D:\Documents\KiCad\8.0\projects\GOMA\GOMA.cir(8): Expected node name here.
+RV1 __RV1
+         ^
+D:\Documents\KiCad\8.0\projects\GOMA\GOMA.cir(8): Expected device instantiation or directive here.
+RV1 __RV1
+^^^^^^^^^
+D:\Documents\KiCad\8.0\projects\GOMA\GOMA.cir(11): Expected nodes here.
+J1 __J1
+  ^^^^^
+D:\Documents\KiCad\8.0\projects\GOMA\GOMA.cir(12): Expected nodes here.
+J3 __J3
+  ^^^^^
+D:\Documents\KiCad\8.0\projects\GOMA\GOMA.cir(15): Expected nodes here.
+J2 __J2
+  ^^^^^
+D:\Documents\KiCad\8.0\projects\GOMA\GOMA.cir(17): Expected node name here.
+D1 __D1
+       ^
+D:\Documents\KiCad\8.0\projects\GOMA\GOMA.cir(17): Expected device instantiation or directive here.
+D1 __D1
+^^^^^^^
+D:\Documents\KiCad\8.0\projects\GOMA\GOMA.cir(21): Expected nodes here.
+J5 __J5
+  ^^^^^

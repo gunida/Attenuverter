@@ -1,0 +1,22 @@
+.title KiCad schematic
+R1 R1 Net-_U1A--_ 100k
+U1 __U1
+R2 Net-_U1A--_ Net-_R2-Pad2_ 100k
+R5 Net-_R2-Pad2_ /Daisy_chain_in 100k
+J4 __J4
+SW1 __SW1
+RV1 __RV1
+R10 U1.3 Net-_SW1-A_ 22k
+R13 GND U1.3 22k
+J1 __J1
+J3 __J3
+R11 Net-_U1D-+_ R11 1k
+R12 /Daisy_chain_out R12 100k
+J2 __J2
+R8 GND U1.13 4.7k
+D1 __D1
+R4 Net-_U1C--_ Net-_U1D-+_ 100k
+R3 /Daisy_chain_in Net-_R3-Pad2_ 100k
+R6 Net-_R3-Pad2_ Net-_U1C--_ 100k
+J5 __J5
+.end
