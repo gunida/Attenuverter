@@ -12603,7 +12603,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
+		(property "Footprint" "Custom:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_3D"
 			(at 68.58 63.5 0)
 			(effects
 				(font
@@ -19619,7 +19619,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
+		(property "Footprint" "Custom:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_3D"
 			(at 69.85 142.24 0)
 			(effects
 				(font
@@ -19692,7 +19692,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
+		(property "Footprint" "Custom:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_3D"
 			(at 66.04 330.2 0)
 			(effects
 				(font
@@ -20647,7 +20647,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
+		(property "Footprint" "Custom:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_3D"
 			(at 67.31 240.03 0)
 			(effects
 				(font
