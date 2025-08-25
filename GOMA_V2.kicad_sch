@@ -9013,6 +9013,28 @@
 			)
 		)
 	)
+	(global_label "R39_FP"
+		(shape bidirectional)
+		(at 52.07 377.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9d473d5e-4b55-42be-8d09-4430610b0a0c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.1817 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "R17_BP"
 		(shape bidirectional)
 		(at 234.95 134.62 90)
@@ -9277,28 +9299,6 @@
 			)
 		)
 	)
-	(global_label "R39_FP"
-		(shape bidirectional)
-		(at 52.07 359.41 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bd8cd587-d03e-435f-9bae-d042d5328051")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.1817 359.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "U4.5_BP"
 		(shape bidirectional)
 		(at 118.11 328.93 270)
@@ -9510,6 +9510,28 @@
 		(uuid "cfdf5ed5-0aab-4ced-b12f-5a9bd456f6a9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 107.95 152.747 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R39_BP"
+		(shape bidirectional)
+		(at 41.91 377.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d41b77b7-9cb4-4a2b-b7af-c0635f33a15a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 34.1245 377.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9752,28 +9774,6 @@
 		(uuid "f743a378-f733-4b2f-8e86-76c3db32f779")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 44.8892 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "R39_BP"
-		(shape bidirectional)
-		(at 41.91 359.41 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f764ab4d-c41f-48a4-98b7-e88af2429f59")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 34.1245 359.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10889,7 +10889,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 52.07 377.19 270)
+		(at 52.07 359.41 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10897,7 +10897,7 @@
 		(dnp no)
 		(uuid "132c7c48-ac21-4ef2-bcd4-c915b4e6c02f")
 		(property "Reference" "#PWR067"
-			(at 48.26 377.19 0)
+			(at 48.26 359.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10906,7 +10906,7 @@
 			)
 		)
 		(property "Value" "+12V_FP"
-			(at 55.88 377.1899 90)
+			(at 55.88 359.4099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10915,7 +10915,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 377.19 0)
+			(at 52.07 359.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10924,7 +10924,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 377.19 0)
+			(at 52.07 359.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10933,7 +10933,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 52.07 377.19 0)
+			(at 52.07 359.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10945,7 +10945,7 @@
 			(uuid "0e00e9be-66f5-41b0-913e-f9f4c78a9254")
 		)
 		(instances
-			(project "GOMA"
+			(project "GOMA_V2"
 				(path "/96da86e7-a50f-451f-8b60-e0d897c8bc3d"
 					(reference "#PWR067")
 					(unit 1)
@@ -16222,7 +16222,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 41.91 377.19 90)
+		(at 41.91 359.41 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16231,7 +16231,7 @@
 		(dnp no)
 		(uuid "897a031f-e38f-4eb5-acb1-cb277d7614b9")
 		(property "Reference" "#PWR068"
-			(at 45.72 377.19 0)
+			(at 45.72 359.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16240,7 +16240,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 38.1 377.1899 90)
+			(at 38.1 359.4099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16249,7 +16249,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 377.19 0)
+			(at 41.91 359.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16258,7 +16258,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 377.19 0)
+			(at 41.91 359.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16267,7 +16267,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 41.91 377.19 0)
+			(at 41.91 359.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16279,7 +16279,7 @@
 			(uuid "4691838e-5c73-41e4-80f9-31f0fdfe9c5a")
 		)
 		(instances
-			(project "GOMA"
+			(project "GOMA_V2"
 				(path "/96da86e7-a50f-451f-8b60-e0d897c8bc3d"
 					(reference "#PWR068")
 					(unit 1)
